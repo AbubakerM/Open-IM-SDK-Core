@@ -13,7 +13,7 @@
 #include "Open_im_sdk_callback.objc.h"
 
 @interface Open_im_sdk : NSObject
-// skipped variable UserRouterMap with unsupported type: map[string]map[string]*Open_IM/cmd/Open-IM-SDK-Core/internal/login.LoginMgr
+// skipped variable UserRouterMapNew with unsupported type: map[string]*Open_IM/cmd/Open-IM-SDK-Core/internal/login.LoginMgr
 
 // skipped variable UserSDKRwLock with unsupported type: sync.RWMutex
 
@@ -185,11 +185,11 @@ FOUNDATION_EXPORT void Open_im_sdkGetSubDepartment(id<Open_im_sdk_callbackBase> 
 
 FOUNDATION_EXPORT void Open_im_sdkGetTotalUnreadMsgCount(id<Open_im_sdk_callbackBase> _Nullable callback, NSString* _Nullable operationID);
 
-FOUNDATION_EXPORT void Open_im_sdkGetUserIPandStatus(id<Open_im_sdk_callbackSendMsgCallBack> _Nullable callback, NSString* _Nullable operationID, NSString* _Nullable requestString);
+FOUNDATION_EXPORT void Open_im_sdkGetUserIPandStatus(id<Open_im_sdk_callbackBase> _Nullable callback, NSString* _Nullable operationID, NSString* _Nullable requestString);
 
 FOUNDATION_EXPORT void Open_im_sdkGetUserInDepartment(id<Open_im_sdk_callbackBase> _Nullable callback, NSString* _Nullable operationID, NSString* _Nullable userID);
 
-// skipped function GetUserWorker with unsupported parameter or return types
+// skipped function GetUserWorkerNew with unsupported parameter or return types
 
 
 /**
